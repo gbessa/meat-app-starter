@@ -9,7 +9,7 @@ const ROUTES: Routes = [
     {path: '', component: OrderComponent}
 ]
 
-NgModule({
+@NgModule({
     declarations: [
         OrderComponent,
         DeliveryCostsComponent,
