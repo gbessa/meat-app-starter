@@ -7,9 +7,11 @@ import { ReviewsComponent } from './restaurants/restaurant-detail/reviews/review
 import { OrderSummaryComponent } from './order-summary/order-summary.component';
 import { OrderModule } from './order/order.module';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { LoginComponent } from './security/login/login.component';
 
 export const ROUTES: Routes = [
     {path: '', component: HomeComponent},
+    {path: 'login', component: LoginComponent},
     {path: 'restaurants', component: RestaurantsComponent},
     {path: 'restaurants/:id', component: RestaurantDetailComponent,
         children: [
