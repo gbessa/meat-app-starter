@@ -14,5 +14,6 @@ var User = (function () {
 exports.User = User;
 exports.users = {
     "juliana@gmail.com": new User('juliana@gmail.com', 'Juliana', 'juliana22'),
-    "amanda@gmail.com": new User('amanda@gmail.com', 'Amanda', 'amanda22')
+    "amanda@gmail.com": new User('amanda@gmail.com', 'Amanda', 'amanda22'),
+    "gbessa@gmail.com": new User('gbessa@gmail.com', 'Gustavo', 'gbessa')
 };
